@@ -17,6 +17,11 @@ components:
     properties: {text: Output}
     type: TextBox
     layout_properties: {grid_position: 'VYWZRF,TMMPNT'}
+  - name: text_box_3
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'NSFLKG,FWHBOV'}
+    event_bindings: {change: text_box_3_change}
   - name: button_1
     properties: {text: Refresh}
     type: Button
